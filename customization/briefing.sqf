@@ -7,6 +7,10 @@
 //This might be drastically wittnessed in the 'I.Situation' tab.
 //-----------------------------------------------------
 //
+// To use markers insert the following:
+// <marker name='markerObjectName'>OBJ Alpha</marker>
+// make sure the equivalent of 'markerObjectName' exists as a marker placed by you.
+//
 #include "core\briefingCore.sqf"
  
 switch (side player) do {
@@ -16,7 +20,7 @@ switch (side player) do {
 	
 		NEWTAB("Task Organization:")
 		//Understand that the Unit Organization is not part of the OPORD. The OPORD starts with point I. Situation. The tab Unit Organization explains the unit mentioned in the OPORD in terms to its next vertical and horizontal elements.
-		<br/><font color='#FFA500' size='16'>C Company (C/2-330 INF):</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>C Company (C/2-330 INF):</font>
 		// make sure to present horizontal and vertical elements to support the player in realising his own situation within the unit.
 		<br/>Company CO - C'6
 		<br/>Company XO - C'7
@@ -25,7 +29,7 @@ switch (side player) do {
 		<br/>3rd Infantry Platoon - C'3
 		<br/>Heavy Weapons Platoon - C'4
 		<br/>
-		<br/><font color='#FFA500' size='16'>Compositions and Locations:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>Compositions and Locations:</font>
 		//Provide clear information about the location at minimum, any composition differing from the default unit organization should be mentioned here.
 		<br/>Charlie Company (as per unit organization) at South Rasman.
 		<br/>C'1 at Rasman South blocking west.
@@ -33,13 +37,13 @@ switch (side player) do {
 		<br/>C'3 at Rasman South blocking and fighting Bastam North.
 		<br/>C'4 at Rasman South and 2 squads in supporting positions.
 		<br/> 
-		<br/><font color='#FFA500' size='16'>Attached or Organic Forces:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>Attached or Organic Forces:</font>
 		// make sure to present attachments with their actual origin, type and callsign.
 		<br/>(A/1-26 SUP) Tactical Air Control Party - Topdown
 		<br/>(C/4-33 ART) Fire Support Team - Ironhammer
 		<br/>(E/2-65 MED) Ambulance Squad - Lima Papa
 		<br/> 
-		<br/><font color='#FFA500' size='16'>Adjacent Units:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>Adjacent Units:</font>
 		//Explain from mission maker POV which other horizontal units additionally to yours are present in the area.
 		<br/>Alpha Company at Nagara.
 		<br/>Bravo Company at Zavarak and Sagram
@@ -52,11 +56,11 @@ switch (side player) do {
 		<br/>There has been few resistance by the local Insurgents over the past 2 days. Today at sunrise this changed drastically. All three companies have been engaged by insurgent forces at sunrise.
 		<br/>Sofar Charlie 3 Platoon supported by C'4'1 was able to stop and return any Fire into their direction. Attacks onto Charlie Company came from Lalezar Plant to the west and Bastam south.
 		<br/>
-		<br/><font color='#FFA500' size='16'>a. Areas of Interest:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>a. Areas of Interest:</font>
 		//If you have any areas of interest defined name them, their locations and what makes them interesting.
 		<br/>Currently only Rasman and Rasman Airport are of any importance to this operations. These areas are to be protected at any time.
 		<br/>
-		<br/><font color='#FFA500' size='16'>b. Area of Operation:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Area of Operation:</font>
 		//Now all preliminary info about the actual AO is collected and given to the mission CO.
 		<br/>
 		<br/><font color='#005aff' size='15'>1. Terrain:</font>
@@ -92,7 +96,7 @@ switch (side player) do {
 		//Sandstorms, fog or any condition limiting the view range should be given here. Define a value(!), for example: 'Visibility is decreased by fog; view limited to approximately 100m.'
 		<br/>Clear visibility with view to the horizont.
 		<br/>
-		<br/><font color='#FFA500' size='16'>c. Enemy:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>c. Enemy:</font>
 		//If possible provide image intel of the enemy factions/elements loadout or how an individual might dress.
 		<br/><img image='res\enemy.jpg' width='200' />
 		<br/>
@@ -151,7 +155,7 @@ switch (side player) do {
 		<br/>Enemy forces will go into a fighting retreat and have prepared a counter attack or Enemy forces will not follow the Schaichs Order and occupy the IDAP HQ taking hostiles or using civilians and IDAP units as shield.
 		<br/>In second case Charlie Company has orders to surround but not engage into the IDAP HQ and wait for a Special Operations Force attempt to Raid the HQ and free the hostages.
 		<br/>
-		<br/><font color='#FFA500' size='16'>d. Friendly Forces:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>d. Friendly Forces:</font>
 		//Provide image intel of friendly, allied and/or neutral forces likely to be met in the AO.
 		<br/><img image='res\friendly.jpg' width='200' />
 		<br/>
@@ -167,19 +171,19 @@ switch (side player) do {
 		//List all rear, forward or flank units supporting your operation.
 		<br/>Alpha Company at Nagara; Their orders are to maintain position and fend of any insurgents attacks following the once this morning.
 		<br/>Bravo Company at Zavarak and Sagram; Their orders are to maintain position and fend of any insurgents attacks following the once this morning.
-		<br/><font color='#FFA500' size='16'>e. Attachments  and  Detachments:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>e. Attachments  and  Detachments:</font>
 		//Do not put info here that is available in the Task Organization.
 		<br/>See Task Organization.
 		ENDTAB;
 
 		NEWTAB("II. Mission:")
-		<br/><font color='#FFA500' size='16'>Mission Intent:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>Mission Intent:</font>
 		//This now is your (the mission makers) view onto the mission you made. How do you want the mission CO to accomplish the mission, what is he to accomplish and what are the states.
 		//!!!IMPORTANT: If the mission is desinged to run multiple units below 'you' their missions and objectives belong in here as well. You will have to adjust II.Mission and III.Execution accordingly.
 		<br/>Carlie 2nd Platoon and Attched Forces are to establish a blocking position (with its weapons squad and the attached squad from C'4) east and south from Bastam guarding south and east routes NLT (not later than) 1400 local time independed from developments inside the IDAP HQ area.
 		<br/>If the IDAP HQ is (against all odds) occupied by insurgent forces, the mosque ist to be surrounded by a safety parameter of minimum 50m all around. No fires into the IDAP HQ are allowed.
 		<br/>
-		<br/><font color='#FFA500' size='16'>Objectives:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>Objectives:</font>
 		//Define specific Objectives or positions on which your want the mission CO to execute specific tasks.
 		//Do also define the end state of the operation.
 		<br/><font color='#005aff' size='15'>ORP C'2</font>
@@ -195,14 +199,14 @@ switch (side player) do {
 		ENDTAB;
 
 		NEWTAB("III. Execution:")
-		<br/><font color='#FFA500' size='16'>a. Commanders Intent:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>a. Commanders Intent:</font>
 		//In here you tell the mission CO how you will use his and adjacent units to accomplish your mission.
 		<br/>- Seize Bastam
 		<br/>- Form Blocking Positions
 		<br/>- Prevent insurgent attacks onto IDAP HQ
 		<br/>- Prevent insurgents from entering Rasman airfield area
 		<br/>
-		<br/><font color='#FFA500' size='16'>b. Concept of Operations</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Concept of Operations</font>
 		//Give overview of the planned tasks in your concept per unit.
 		//As said above, if you brief for multiple units, you will have to adjust the briefing accordingly.
 		<br/>Charlie Company will accomplish the mission by the following steps:
@@ -263,7 +267,7 @@ switch (side player) do {
 		//What is the purpose for oganic or attached air defense units? Where are they located? Are they to be active of passive?
 		<br/>No AA with the Company, no air threat in the area.
 		<br/>
-		<br/><font color='#FFA500' size='16'>c. Tasks to Maneuver Units:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>c. Tasks to Maneuver Units:</font>
 		//List all included units in the operation and detail their secondary tasks.
 		<br/><font color='#005aff' size='15'>1. 2nd Platoon of Charlie Company:</font>
 		<br/>1. All units are to precede with caution and have to be covered at all phases.
@@ -288,23 +292,23 @@ switch (side player) do {
 		<br/>17. Rules of Engagement: When to shoot, What to shoot at.
 		<br/>Do not shoot at any local population. Local population will turn against our forces when fired upon. Do not engage any individuals obviously engaging in medical actions.
 		<br/>
-		<br/><font color='#FFA500' size='16'>d. Tasks to Combat Service Support Units:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>d. Tasks to Combat Service Support Units:</font>
 		<br/>The CCP has to be established at a position with a minimum of 2 hard cover obstacles towards the enemy, to deny shrapnels or stray round into the CCP.
 		<br/>Casualties are evacuated to the CCP by combat lifesavers or their fellow soldiers. If treatment at the CCP does not suffice, MEDEVAC by the ambulance squad will be requested.
 		<br/>
-		<br/><font color='#FFA500' size='16'>e. Coordinating Instructions:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>e. Coordinating Instructions:</font>
 		<br/>At all times medical evacuation can be requested via the callsign Lima Papa on COY Net (Company radio net), detailed evac execution takes place on the COY Medevac Net.
 		<br/>For each Phase of the operation a CCP is to be assigned and maintained by the detached trauma specialist who at all times has to stay in radio contact with the COY Ambulance Squad.
 		<br/>Identified IEDs have to me visually marked for follow on troops and ordenace disposal. Equipment is handed out at ORP.
 		ENDTAB;
 
 		NEWTAB("IV. Service Support:")
-		<br/><font color='#FFA500' size='16'>a. General Concept:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>a. General Concept:</font>
 		<br/>Resupply is only available at Rasman South with C'6.
 		<br/>Company AXP (Ambulance Exchange Point) is located at 105062
 		<br/>C'2 trauma specialist is to request medevac via COY MEDEVAC NET as per 9line medevac SOP.
 		<br/>
-		<br/><font color='#FFA500' size='16'>b. Material and Services:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Material and Services:</font>
 		<br/><font color='#005aff' size='15'>1. Supply:</font>
 		<br/>a. Class I: Food and Water (Skip)
 		<br/>b. Class II: Clothing and individual equipment
@@ -330,7 +334,7 @@ switch (side player) do {
 		<br/><font color='#005aff' size='15'>4. Maintenance:</font>
 		<br/>As per COY SOPs
 		<br/>
-		<br/><font color='#FFA500' size='16'>c. Medical Evacuation:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>c. Medical Evacuation:</font>
 		<br/>MoE (Method of Evacuation) in field by foot to nearest CCP. If required from CCP via MEDEVAC to COY AXP or BAS.
 		<br/>
 		<br/><font color='#005aff' size='15'>1. Actions on enemy/civilian wounded:</font>
@@ -339,11 +343,11 @@ switch (side player) do {
 		<br/><font color='#005aff' size='15'>2. Actions on friendly wounded:</font>
 		<br/>Secure area, provide first aid, evac to CCP.
 		<br/>
-		<br/><font color='#FFA500' size='16'>d. Personnel:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>d. Personnel:</font>
 		<br/><font color='#005aff' size='15'>1. Handeling of enemy prisoners of war (EPW).</font>
 		<br/>EPWs are to be secured and brought to COY Prisoner Collection Point where they will be guarded.
 		<br/>
-		<br/><font color='#FFA500' size='16'>e. Civil-Military Cooperation:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>e. Civil-Military Cooperation:</font>
 		<br/><font color='#005aff' size='15'>1. Civilians</font>
 		<br/>The local Population is armed and is acting in our favor. Each city is independed and will react differently to diplomatic approaches.
 		<br/><font color='#005aff' size='15'>2. Refugees</font>
@@ -354,7 +358,7 @@ switch (side player) do {
 		NEWTAB("V. Command & Signal:")
 		<br/>During all phases of Company operation the HQ will remain at 104061 with all C2 control elements. Callsign Topdown will position on their own.
 		<br/>
-		<br/><font color='#FFA500' size='16'>a. Command:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>a. Command:</font>
 		<br/><font color='#005aff' size='15'>1. Location of higher units Head Quarter (HQ) and Command and Control Point (C2P).</font>
 		<br/>Battalion HQ is located at Rasman airfield.
 		<br/><font color='#005aff' size='15'>2. Locations of key personnel during all phases of the operation, during movement, at the ORP and on the objective.</font>
@@ -362,7 +366,7 @@ switch (side player) do {
 		<br/><font color='#005aff' size='15'>3. Succession of Command</font>
 		<br/>C'6, C'7 C'4 C'1 C'2 C'3
 		<br/><font color='#005aff' size='15'>4. (Skip) Adjustments to unit SOPs</font>
-		<br/><font color='#FFA500' size='16'>b. Signal:</font>
+		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Signal:</font>
 		<br/><font color='#005aff' size='15'>1. Signal Operating Instructions Index in effect:</font>
 		<br/> Callsigns as per Task Organization!
 		<br/>
