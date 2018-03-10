@@ -479,20 +479,20 @@ switch (side player) do {
 		<br/>
 		<br/><font color='#FFA500' size='15'>ACE MEDICAL</font>
 		<br/>
-      	<br/>- Ace Medical Surgical Kit can only be used by Corpsman.
-   		<br/>- Ace Medical Surgical Kit can only be used near of Medical Vehicles or Facilities, as long as the patient is stable. (no bleeding)
-       	<br/>- Ace Medical Surgical Kit is used up when used.
-       	<br/>- Highest ranking MEDIC is set to be ACE Doctor.
+		<br/>- Ace Medical Surgical Kit can only be used by Corpsman.
+		<br/>- Ace Medical Surgical Kit can only be used near of Medical Vehicles or Facilities, as long as the patient is stable. (no bleeding)
+		<br/>- Ace Medical Surgical Kit is used up when used.
+		<br/>- Highest ranking MEDIC is set to be ACE Doctor.
 		<br/>
 		<br/><font color='#FFA500' size='15'>TECHNICAL ASPECT</font>
 		<br/>
-        <br/>- View Distance:
-        <br/>-- Player: 2500.
+		<br/>- View Distance:
+		<br/>-- Player: 2500.
         <br/>-- AI: 2500.
-        <br/>- ACRE Signal loss is turned on.
-        <br/>- ACRE Occlusion is turned on.
-        <br/>- ACRE radio interference is turned on.
-        <br/>- ACRE AI HEAR PLAYERS IS ENABLED.
+		<br/>- ACRE Signal loss is turned on.
+		<br/>- ACRE Occlusion is turned on.
+		<br/>- ACRE radio interference is turned on.
+		<br/>- ACRE AI HEAR PLAYERS IS ENABLED.
 		<br/>
 		<br/><font color='#FFA500' size='15'>CREDITS</font>
 		<br/>
