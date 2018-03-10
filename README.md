@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://github.com/PaxJaromeMalues/uo_enhanced_briefing_preset/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.0.0-green.svg" alt="Version">
+        <img src="https://img.shields.io/badge/Version-1.0.1-green.svg" alt="Version">
     </a>
 	<a href="https://github.com/dklollol/Olsen-Framework-Arma-3/releases/tag/3.3.2">
         <img src="https://img.shields.io/badge/OFW-3.3.2-blue.svg" alt="OFW">
