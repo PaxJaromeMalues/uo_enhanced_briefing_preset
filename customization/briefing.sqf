@@ -63,12 +63,12 @@ switch (side player) do {
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Area of Operation:</font>
 		//Now all preliminary info about the actual AO is collected and given to the mission CO.
 		<br/>
-		<br/><font color='#005aff' size='15'>1. Terrain:</font>
+		<br/><font color='#d21111' size='15'>1. Terrain:</font>
 		//If in line with the equipment, story and era your mission plays in, provide image intel of the AO
 		<br/><img image='res\top.jpg' width='350' />
 		<br/><img image='res\3Dthermal.jpg' width='350' />
 		<br/>
-		<br/><font color='#005aff' size='15'>2. Weather:</font>
+		<br/><font color='#d21111' size='15'>2. Weather:</font>
 		//Provide the current weather situation as you have set in the mission editor attribute options in ArmA3 Eden Editor.
 		<br/><font size='14'>CURRENT:</font>
 		<br/>Wind: None
@@ -100,7 +100,7 @@ switch (side player) do {
 		//If possible provide image intel of the enemy factions/elements loadout or how an individual might dress.
 		<br/><img image='res\enemy.jpg' width='200' />
 		<br/>
-		<br/><font color='#005aff' size='15'>1. Disposition, Composition and Strength:</font>
+		<br/><font color='#d21111' size='15'>1. Disposition, Composition and Strength:</font>
 		<br/><font size='14'>a. DISPOSITION:</font>
 		//What exactly do you currently know about the enemy in the AO. All known Intel is material for Disposition and is only found here.
 		//If you reference new Intel on another point in the OPORD that is not already mentioned in Disposition or Composition, you made a mistake.
@@ -119,7 +119,7 @@ switch (side player) do {
 		<br/>The current layout of the enemy units at Bastam Center is unlikely to change upon engagement as all so far known enemy units are bound in contact with Alpha and Bravo Company.
 		<br/>If reinforcements depart, we expect no forces larger than 2 Squads with the same weaponry and assets for mobility.
 		<br/>
-		<br/><font color='#005aff' size='15'>2. Capabilities:</font>
+		<br/><font color='#d21111' size='15'>2. Capabilities:</font>
 		//Explain the enemies possible actions, include significant capabilities even if they seem unlikely. Any significant weapons systems and how they might be employed. Are there specific vulerabilities of the enemy we can exploit?
 		<br/><font size='14'>a. MANEUVER:</font>
 		<br/>The enemy has no maneuvering assets with him and is focused on defense.
@@ -143,7 +143,7 @@ switch (side player) do {
 		<br/><font size='14'>g. COMMAND AND CONTROL:</font>
 		<br/>No advanced assets for C2 are known to be in the hands of the insurgents.
 		<br/>
-		<br/><font color='#005aff' size='15'>3. Enemy Courses of Action:</font>
+		<br/><font color='#d21111' size='15'>3. Enemy Courses of Action:</font>
 		<br/><font size='14'>a. MOST LIKELY COURSE OF ACTION (MLCOA):</font>
 		//What is the enemy most likely going to do once we engage him?
 		<br/>Enemy Forces have dug in and heavily fortified Bastam over night.
@@ -159,7 +159,7 @@ switch (side player) do {
 		//Provide image intel of friendly, allied and/or neutral forces likely to be met in the AO.
 		<br/><img image='res\friendly.jpg' width='200' />
 		<br/>
-		<br/><font color='#005aff' size='15'>1. Higher HQ Mission and Intent:</font>
+		<br/><font color='#d21111' size='15'>1. Higher HQ Mission and Intent:</font>
 		//This part includes the information the mission maker received from his superior. It sates the Higher HQs mission intent and concept. Keep this short.
 		<br/><font size='14'>a. HIGHER HQ MISSION INTENT:</font>
 		<br/>Battalion HQ has issued this operation in north Takistan to stabilize its regions after insurgents flooded Takistan following a governmental collapse.
@@ -167,7 +167,7 @@ switch (side player) do {
 		<br/><font size='14'>b. HIGHER HQ MISSION CONCEPT:</font>
 		<br/>Battalion HQs aim is to use Alpha, Bravo and Charlie Company including attachments to secure a 12 Km foothold region around Bastams airport, to support save insertion of additonal forces.
 		<br/> 
-		<br/><font color='#005aff' size='15'>c. Missions of Adjacent units:</font>
+		<br/><font color='#d21111' size='15'>c. Missions of Adjacent units:</font>
 		//List all rear, forward or flank units supporting your operation.
 		<br/>Alpha Company at Nagara; Their orders are to maintain position and fend of any insurgents attacks following the once this morning.
 		<br/>Bravo Company at Zavarak and Sagram; Their orders are to maintain position and fend of any insurgents attacks following the once this morning.
@@ -186,13 +186,13 @@ switch (side player) do {
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>Objectives:</font>
 		//Define specific Objectives or positions on which your want the mission CO to execute specific tasks.
 		//Do also define the end state of the operation.
-		<br/><font color='#005aff' size='15'>ORP C´2</font>
+		<br/><font color='#d21111' size='15'>ORP C´2</font>
 		<br/>- Establish safety parameter and prepare to move into Bastam North.
 		<br/>
-		<br/><font color='#005aff' size='15'>Bastam North (Phase One)</font>
+		<br/><font color='#d21111' size='15'>Bastam North (Phase One)</font>
 		<br/>- Establish base of fire as necessary 
 		<br/>
-		<br/><font color='#005aff' size='15'>Objective Rosalind (Phase Two)</font>
+		<br/><font color='#d21111' size='15'>Objective Rosalind (Phase Two)</font>
 		<br/>- Seize the objective of all enemy forces (except when IDAP HQ is occupied by enemies).
 		<br/>- Establish east and south route blocking positions using the cities buildings.
 		<br/>- Protect the IDAP HQ
@@ -219,11 +219,11 @@ switch (side player) do {
 		<br/>Engineers will later disarm all detected IEDs as a separate operation.
 		<br/>End state is a security ring consisting out of Alpha Company in Nagara, Bravo in Zavarak and Charlie in Bastam to support further inland operations and reinforcements to Rasman airfield.
 		<br/>
-		<br/><font color='#005aff' size='15'>1. Maneuver</font>
+		<br/><font color='#d21111' size='15'>1. Maneuver</font>
 		<br/>(This point is skipped as it is not representable in ArmA3. Its purpose is to graphically war game the offensive/defensive actions taken of all units in this operation.)
 		<br/>(If absolutely necessary the mission CO can use visual tools while his briefing on the map screen.)
 		<br/>
-		<br/><font color='#005aff' size='15'>2. Fires</font>
+		<br/><font color='#d21111' size='15'>2. Fires</font>
 		<br/><font size='14'>a. PURPOSE AND TASK:</font>
 		//What does the commander want to accomplish with his fires? This includes all fire support systems: artillery, mortars, close air support, and naval gunfire.
 		//What is the Task (suppress, neutralize, destroy, delay, disrupt)/Purpose(suppress, neutralize, destroy, harass) of each fire support asset?
@@ -242,15 +242,15 @@ switch (side player) do {
 		//Has the FSO or the mission maker set any restrictions on what to use or where to fire?
 		<br/>Fires N/A
 		<br/>
-		<br/><font color='#005aff' size='15'>3. Reconnaissance and Surveillance:</font>
+		<br/><font color='#d21111' size='15'>3. Reconnaissance and Surveillance:</font>
 		//Are any R&S forces available to the mission CO and how do you intent them to be used?
 		<br/>Currently all available forces and assets are deployed and additional intel might arrive at any moment while in operation.
 		<br/>
-		<br/><font color='#005aff' size='15'>4. Intelligence:</font>
+		<br/><font color='#d21111' size='15'>4. Intelligence:</font>
 		//What to do with enemy/neutral intel acquired while operation. Is any of the units to explicitly search for intel?
 		<br/>It in not to be expected to come across any meaningful intel; intel discovered is to be secured after the missions main efforts is accomplished.
 		<br/>
-		<br/><font color='#005aff' size='15'>5. Engineering:</font>
+		<br/><font color='#d21111' size='15'>5. Engineering:</font>
 		<br/><font size='14'>a. PURPOSE AND PRIORITY:</font>
 		//What is the priority and purpose of the engineering effort? Where are engineering units located? Orders may be given in the next paragraph.
 		<br/>Engineers will later on clear the area of Bastam of any remaining explosives.
@@ -263,13 +263,13 @@ switch (side player) do {
 		//What restrictions are given to the engineers? Are EOD techs allowed to defuse by detonation?
 		<br/>No restrictions at this time.
 		<br/>
-		<br/><font color='#005aff' size='15'>6. Air Defense:</font>
+		<br/><font color='#d21111' size='15'>6. Air Defense:</font>
 		//What is the purpose for organic or attached air defense units? Where are they located? Are they to be active of passive?
 		<br/>No AA with the Company, no air threat in the area.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>c. Tasks to Maneuver Units:</font>
 		//List all included units in the operation and detail their secondary tasks.
-		<br/><font color='#005aff' size='15'>1. 2nd Platoon of Charlie Company:</font>
+		<br/><font color='#d21111' size='15'>1. 2nd Platoon of Charlie Company:</font>
 		<br/>1. All units are to precede with caution and have to be covered at all phases.
 		<br/>2. Actions at short/long halts: Establish security and maintain spacing. Report to Higher.
 		<br/>3. Primary and alternate routes per element. C´2 - south in between the south bound roads towards Bastam, no alternative route available.
@@ -309,7 +309,7 @@ switch (side player) do {
 		<br/>C´2 trauma specialist is to request medevac via COY MEDEVAC NET as per 9line medevac SOP.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Material and Services:</font>
-		<br/><font color='#005aff' size='15'>1. Supply:</font>
+		<br/><font color='#d21111' size='15'>1. Supply:</font>
 		<br/>
 		<br/>b. Class II: Clothing and individual equipment
 		<br/>Info N/A
@@ -326,32 +326,32 @@ switch (side player) do {
 		<br/>k. Method of Supply distribution
 		<br/>Supply distribution via C´5 Company First Sergeant with COY HQ
 		<br/>
-		<br/><font color='#005aff' size='15'>2. Transportation:</font>
+		<br/><font color='#d21111' size='15'>2. Transportation:</font>
 		<br/>None.
 		<br/>
-		<br/><font color='#005aff' size='15'>3. Services:</font>
+		<br/><font color='#d21111' size='15'>3. Services:</font>
 		<br/>Skip for UO - unless you require a 10digit grid of Impulses porn box.
 		<br/>
-		<br/><font color='#005aff' size='15'>4. Maintenance:</font>
+		<br/><font color='#d21111' size='15'>4. Maintenance:</font>
 		<br/>As per COY SOPs
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>c. Medical Evacuation:</font>
 		<br/>MoE (Method of Evacuation) in field by foot to nearest CCP. If required from CCP via MEDEVAC to COY AXP or BAS.
 		<br/>
-		<br/><font color='#005aff' size='15'>1. Actions on enemy/civilian wounded:</font>
+		<br/><font color='#d21111' size='15'>1. Actions on enemy/civilian wounded:</font>
 		<br/>Disarm, secure, provide first aid, evac to CCP.
 		<br/>
-		<br/><font color='#005aff' size='15'>2. Actions on friendly wounded:</font>
+		<br/><font color='#d21111' size='15'>2. Actions on friendly wounded:</font>
 		<br/>Secure area, provide first aid, evac to CCP.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>d. Personnel:</font>
-		<br/><font color='#005aff' size='15'>1. Handling of enemy prisoners of war (EPW).</font>
+		<br/><font color='#d21111' size='15'>1. Handling of enemy prisoners of war (EPW).</font>
 		<br/>EPWs are to be secured and brought to COY Prisoner Collection Point where they will be guarded.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>e. Civil-Military Cooperation:</font>
-		<br/><font color='#005aff' size='15'>1. Civilians</font>
+		<br/><font color='#d21111' size='15'>1. Civilians</font>
 		<br/>The local Population is armed and is acting in our favor. Each city is independent and will react differently to diplomatic approaches.
-		<br/><font color='#005aff' size='15'>2. Refugees</font>
+		<br/><font color='#d21111' size='15'>2. Refugees</font>
 		<br/>Many areas of the country are poor and where unable to leave the scene of war. Expect refugees at any time.
 		<br/>
 		ENDTAB;
@@ -360,15 +360,15 @@ switch (side player) do {
 		<br/>During all phases of Company operation the HQ will remain at 104061 with all C2 control elements. Callsign Topdown will position on their own.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>a. Command:</font>
-		<br/><font color='#005aff' size='15'>1. Location of higher units Head Quarter (HQ) and Command and Control Point (C2P).</font>
+		<br/><font color='#d21111' size='15'>1. Location of higher units Head Quarter (HQ) and Command and Control Point (C2P).</font>
 		<br/>Battalion HQ is located at Rasman airfield.
-		<br/><font color='#005aff' size='15'>2. Locations of key personnel during all phases of the operation, during movement, at the ORP and on the objective.</font>
+		<br/><font color='#d21111' size='15'>2. Locations of key personnel during all phases of the operation, during movement, at the ORP and on the objective.</font>
 		<br/>Charlie COY HQ maintains position throughout all phases. The attached Ambulance Squad will maintain their position.
-		<br/><font color='#005aff' size='15'>3. Succession of Command</font>
+		<br/><font color='#d21111' size='15'>3. Succession of Command</font>
 		<br/>C´6, C´7, C´4, C´1, C´2, C´3
-		<br/><font color='#005aff' size='15'>4. (Skip) Adjustments to unit SOPs</font>
+		<br/><font color='#d21111' size='15'>4. (Skip) Adjustments to unit SOPs</font>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Signal:</font>
-		<br/><font color='#005aff' size='15'>1. Signal Operating Instructions Index in effect:</font>
+		<br/><font color='#d21111' size='15'>1. Signal Operating Instructions Index in effect:</font>
 		<br/> Callsigns as per Task Organization!
 		<br/>
 		<br/><font size='14'>Short Range Radio Nets:</font>
@@ -419,35 +419,35 @@ switch (side player) do {
 		<br/> LR 8 - MEDEVAC NET
 		<br/> LR 9 - FIRES NET
 		<br/>
-		<br/><font color='#005aff' size='15'>2. Method of communication:</font>
+		<br/><font color='#d21111' size='15'>2. Method of communication:</font>
 		<br/>Radios in general, when scammed, runners.
 		<br/>
-		<br/><font color='#005aff' size='15'>3. Pyrotechnics and Signals:</font>
+		<br/><font color='#d21111' size='15'>3. Pyrotechnics and Signals:</font>
 		<br/>Colored flares as per unit SOP, gestures and hand signals for tasks
 		<br/>
-		<br/><font color='#005aff' size='15'>4. Codewords:</font>
+		<br/><font color='#d21111' size='15'>4. Codewords:</font>
 		<br/>red angle = enemy occupied IDAP HQ
 		<br/>black garden = Location with multiple connected IEDs
 		<br/>united panic = mass casualty event
 		<br/>broken pipe = immediate retreat of all forces to previous phase
 		<br/>
-		<br/><font color='#005aff' size='15'>5. Challenge and Password:</font>
+		<br/><font color='#d21111' size='15'>5. Challenge and Password:</font>
 		<br/>C: Marco P: Polo
 		<br/>
-		<br/><font color='#005aff' size='15'>6. Number Combination:</font>
+		<br/><font color='#d21111' size='15'>6. Number Combination:</font>
 		<br/>1464
 		<br/>
-		<br/><font color='#005aff' size='15'>7. Running Password:</font>
+		<br/><font color='#d21111' size='15'>7. Running Password:</font>
 		<br/>Alberta
 		<br/>
-		<br/><font color='#005aff' size='15'>8. Recognition Signals:</font>
+		<br/><font color='#d21111' size='15'>8. Recognition Signals:</font>
 		<br/>Red/Orange Smoke = enemy position (applied towards enemy units)
 		<br/>White Smoke = concealment 
 		<br/>Green Smoke = friendly position (applied towards friendly units)
 		<br/>Yellow Smoke = Urgent Medical (applied towards friendly units)
 		<br/>Blue Smoke = Broken Comms/COC (applied towards friendly units)
 		<br/>
-		<br/><font color='#005aff' size='15'>9. RTO Special Instructions:</font>
+		<br/><font color='#d21111' size='15'>9. RTO Special Instructions:</font>
 		<br/>Company and platoon RTOs are to record all transmitted requests for fire support and medical evacuation.
 		ENDTAB;
  
@@ -455,27 +455,32 @@ switch (side player) do {
  
 }; //End of switch
 
-		NEWTAB("VI. Mission notes:")
+		NEWTAB("VI. Mission notes:") //This is shown for everyone
 		<br/><font color='#FFA500' size='15'>RESPAWN</font>
 		<br/>
-		<br/>> 1000 Tickets per player
+		<br/>One Life per Player
 		<br/>
 		<br/><font color='#FFA500' size='15'>REVIVE</font>
 		<br/>
-		<br/>> None.
+		<br/>Disabled
 		<br/>
 		<br/><font color='#FFA500' size='15'>JIP</font>
 		<br/>
-		<br/>Blufor
-		<br/>> JIP Transport
+		<br/><font size='14'>Blufor</font>
+		<br/>JIP Transport
 		<br/>
 		<br/><font color='#FFA500' size='15'>END CONDITION</font>
 		<br/>
-		<br/>> None.
+		<br/><font size='14'>OPFOR VICTORY:</font>
+		<br/>- 60% Blufor casualties
+		<br/>- IDAP Personnel dies due to Blufor actions
+		<br/>
+		<br/><font size='14'>BLUFOR VICTORY:</font>
+		<br/>- 90% Opfor casualties
 		<br/>
 		<br/><font color='#FFA500' size='15'>USE OF ENEMY VEHICLE ASSETS</font>
 		<br/>
-		<br/>> Prohibited. Following exceptions remain when in a survival-style situation: Jeeps and other non-special vehicles can be manned and operated for tactical advantage. This includes the usage of mounted standard weapon systems like M2/miniguns.
+		<br/>Prohibited. Following exceptions remain when in a survival-style situation: Jeeps and other non-special vehicles can be manned and operated for tactical advantage. This includes the usage of mounted standard weapon systems like M2/miniguns.
 		<br/>
 		<br/><font color='#FFA500' size='15'>ACE MEDICAL</font>
 		<br/>
@@ -488,7 +493,7 @@ switch (side player) do {
 		<br/>
 		<br/>- View Distance:
 		<br/>-- Player: 2500.
-        <br/>-- AI: 2500.
+		<br/>-- AI: 2500.
 		<br/>- ACRE Signal loss is turned on.
 		<br/>- ACRE Occlusion is turned on.
 		<br/>- ACRE radio interference is turned on.
