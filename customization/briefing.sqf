@@ -19,9 +19,12 @@ switch (side player) do {
     {
 	
 		NEWTAB("Task Organization:")
-		//Understand that the Unit Organization is not part of the OPORD. The OPORD starts with point I. Situation. The tab Unit Organization explains the unit mentioned in the OPORD in terms to its next vertical and horizontal elements.
+		//Understand that the "Unit Organization" is not part of the OPORD.
+		//The OPORD starts with point "I. Situation".
+		//The tab "Unit Organization" explains the unit mentioned in the OPORD in relation to its next vertical and horizontal elements.
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>C Company (C/2-330 INF):</font>
-		// make sure to present horizontal and vertical elements to support the player in realizing his own situation within the unit.
+		//Make sure to present horizontal and vertical elements to support the player in realizing his own situation within the unit.
+		//Even if these adjascent units are only fictional and are unused in the mission itself.
 		<br/>Company CO - C´6
 		<br/>Company XO - C´7
 		<br/>1st Infantry Platoon - C´1
@@ -30,7 +33,8 @@ switch (side player) do {
 		<br/>Heavy Weapons Platoon - C´4
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>Compositions and Locations:</font>
-		//Provide clear information about the location at minimum, any composition differing from the default unit organization should be mentioned here.
+		//Provide clear information about the location at minimum,
+		//any composition differing from the default unit organization should be mentioned here.
 		<br/>Charlie Company (as per unit organization) at South Rasman.
 		<br/>C´1 at Rasman South blocking west.
 		<br/>C´2 at Rasman South blocking east. (YOU)
@@ -38,7 +42,7 @@ switch (side player) do {
 		<br/>C´4 at Rasman South and 2 squads in supporting positions.
 		<br/> 
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>Attached or Organic Forces:</font>
-		// make sure to present attachments with their actual origin, type and callsign.
+		//Make sure to present attachments with their actual origin, type and callsign.
 		<br/>(A/1-26 SUP) Tactical Air Control Party - Topdown
 		<br/>(C/4-33 ART) Fire Support Team - Ironhammer
 		<br/>(E/2-65 MED) Ambulance Squad - Lima Papa
@@ -225,13 +229,16 @@ switch (side player) do {
 		<br/>
 		<br/><font color='#d21111' size='15'>2. Fires</font>
 		<br/><font size='14'>a. PURPOSE AND TASK:</font>
-		//What does the commander want to accomplish with his fires? This includes all fire support systems: artillery, mortars, close air support, and naval gunfire.
-		//What is the Task (suppress, neutralize, destroy, delay, disrupt)/Purpose(suppress, neutralize, destroy, harass) of each fire support asset?
+		//What does the commander want to accomplish with his fires?
+		//This includes all fire support systems: artillery, mortars, close air support, and naval gunfire.
+		//What is the Task (suppress, neutralize, destroy, delay, disrupt) and
+		//Purpose(suppress, neutralize, destroy, harass) of each fire support asset?
 		<br/>Fires N/A
 		<br/>
 		<br/><font size='14'>b. PRIORITY:</font>
 		//Who has the priority of fires? When, where, and why? When do they shift? Include all systems.
-		//Normally (but not always) the priority of fires goes to the maneuver element that is designated the main effort or the most vulnerable to enemy attack
+		//Normally (but not always) the priority of fires goes to the maneuver element
+		//which has been designated the main effort or is the most vulnerable to enemy attack.
 		<br/>Fires N/A
 		<br/>
 		<br/><font size='14'>c. ALLOCATION:</font>
@@ -247,12 +254,14 @@ switch (side player) do {
 		<br/>Currently all available forces and assets are deployed and additional intel might arrive at any moment while in operation.
 		<br/>
 		<br/><font color='#d21111' size='15'>4. Intelligence:</font>
-		//What to do with enemy/neutral intel acquired while operation. Is any of the units to explicitly search for intel?
+		//What to do with enemy/neutral intel acquired while operation.
+		//Is any of the units to explicitly search for intel?
 		<br/>It in not to be expected to come across any meaningful intel; intel discovered is to be secured after the missions main efforts is accomplished.
 		<br/>
 		<br/><font color='#d21111' size='15'>5. Engineering:</font>
 		<br/><font size='14'>a. PURPOSE AND PRIORITY:</font>
-		//What is the priority and purpose of the engineering effort? Where are engineering units located? Orders may be given in the next paragraph.
+		//What is the priority and purpose of the engineering effort?
+		//Where are engineering units located? Orders may be given in the next paragraph.
 		<br/>Engineers will later on clear the area of Bastam of any remaining explosives.
 		<br/>
 		<br/><font size='14'>b. ALLOCATION:</font>
@@ -260,11 +269,13 @@ switch (side player) do {
 		<br/>Engineers are with Alpha Company
 		<br/>
 		<br/><font size='14'>c. RESTRICTIONS:</font>
-		//What restrictions are given to the engineers? Are EOD techs allowed to defuse by detonation?
+		//What restrictions are given to the engineers?
+		//Are EOD techs allowed to defuse by detonation?
 		<br/>No restrictions at this time.
 		<br/>
 		<br/><font color='#d21111' size='15'>6. Air Defense:</font>
-		//What is the purpose for organic or attached air defense units? Where are they located? Are they to be active of passive?
+		//What is the purpose for organic or attached air defense units?
+		//Where are they located? Are they to be active of passive?
 		<br/>No AA with the Company, no air threat in the area.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>c. Tasks to Maneuver Units:</font>
@@ -357,7 +368,7 @@ switch (side player) do {
 		ENDTAB;
 
 		NEWTAB("V. Command & Signal:")
-		<br/>During all phases of Company operation the HQ will remain at 104061 with all C2 control elements. Callsign Topdown will position on their own.
+		<br/>During all phases of Company operation the COY HQ will remain at 104061 with all C2 control elements. Callsign Topdown will position on their own.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>a. Command:</font>
 		<br/><font color='#d21111' size='15'>1. Location of higher units Head Quarter (HQ) and Command and Control Point (C2P).</font>
@@ -366,6 +377,7 @@ switch (side player) do {
 		<br/>Charlie COY HQ maintains position throughout all phases. The attached Ambulance Squad will maintain their position.
 		<br/><font color='#d21111' size='15'>3. Succession of Command</font>
 		<br/>C´6, C´7, C´4, C´1, C´2, C´3
+		//This point 4 will most likely only be of importance for large scale cross community events.
 		<br/><font color='#d21111' size='15'>4. (Skip) Adjustments to unit SOPs</font>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Signal:</font>
 		<br/><font color='#d21111' size='15'>1. Signal Operating Instructions Index in effect:</font>
